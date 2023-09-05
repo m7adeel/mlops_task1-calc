@@ -1,8 +1,4 @@
 black
 pylint
 pytest
-<<<<<<< Updated upstream
-pytest-cov
-=======
-pytest-cov
->>>>>>> Stashed changes
+pytest-co

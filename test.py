@@ -1,7 +1,7 @@
-from main import add,subtract
+from main import multiply,divide
 
-def test_add():
-    assert 4 == add(5,2)
+def test_multiply():
+    assert 4 == multiply(5,2)
     
-def test_subtract():
-    assert 4 == subtract(10,2)
+def test_divide():
+    assert 4 == divide(10,2)
