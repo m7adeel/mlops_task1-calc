@@ -1,8 +1,4 @@
 black
-pylint
-pytest
-<<<<<<< Updated upstream
-pytest-cov
-=======
-pytest-cov
->>>>>>> Stashed changes
+pylint==2.17.5
+pytest==7.4.0
+pytest-cov==4.1.0 
