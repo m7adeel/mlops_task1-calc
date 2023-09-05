@@ -1,7 +1,7 @@
 install:
-	pip install --upgrade pip &\
-	pip install -r requirements.txt
+	pip3 install --upgrade pip&\
+	pip3 install -r requirements.txt
 lint:
 	pylint --disable=C,R main.py
 test:
-	python -m pytest -vv --cov=hello test.py
+	python3 -m pytest -vv --cov=hello test.py
